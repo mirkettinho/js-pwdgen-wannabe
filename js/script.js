@@ -21,4 +21,11 @@ console.log(cognome, colorePreferito, age)
 
 const password = name + cognome + colorePreferito + age;
 
-document.getElementById("random_password").innerHTML =`La tua password è: ` + password;
+// document.getElementById("random_password").innerHTML =`La tua password è: ` + password;
+
+
+document.getElementById("random_password").innerHTML =`La tua password è: `;
+
+function myFunction() {
+  document.getElementById("pass").innerHTML = password ;
+}
