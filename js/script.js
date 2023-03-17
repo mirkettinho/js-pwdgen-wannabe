@@ -8,15 +8,17 @@
 4. unire le informazioni
 */
 
-const name = prompt("inserisci il tuo nome")
+const name = prompt("inserisci il tuo nome", "Mirko");
 console.log(name);
 
-const cognome = prompt("inserisci il tuo cognome")
+const cognome = prompt("inserisci il tuo cognome", "Di Franco")
 
-const colorePreferito = prompt("qual'è il tuo colore preferito?")
+const colorePreferito = prompt("qual'è il tuo colore preferito?", "rosso")
 
-const age = prompt("quanti anni hai?")
+const age = prompt("quanti anni hai?", "20");
 
 console.log(cognome, colorePreferito, age)
 
-document.getElementById("random_password").innerHTML = " "+ name + cognome + colorePreferito + age 
+const password = name + cognome + colorePreferito + age;
+
+document.getElementById("random_password").innerHTML =`La tua password è: ` + password;

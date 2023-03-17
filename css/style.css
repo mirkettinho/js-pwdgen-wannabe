@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  background-color: cornflowerblue;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-password{
+  height: 200px;
+  background-color: white;
+  color: cornflowerblue;
+  text-align: center;
+  
+}
+
+.box-password h1{
+  padding: 20px;
+}
+
+.new-password{
+  border: 3px solid cornflowerblue;
+  width: 70%;
+  padding: 15px;
+  margin: 0 auto;
+}
